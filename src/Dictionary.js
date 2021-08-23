@@ -3,7 +3,6 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
-import "./Results.css";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -16,7 +15,7 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResponse(response) {
-    setPhotos(response.data[0]);
+    setPhotos(response.data.photos);
   }
 
   function search(event) {

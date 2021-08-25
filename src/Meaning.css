@@ -1,11 +1,19 @@
 .Meaning h3 {
+  color: #15c49e;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-.Meaning .Example {
+.Meaning .Definition {
+  color: #70757a;
+}
+
+.Example {
   color: #70757a;
   font-style: italic;
-  margin-top: 10px;
+}
+
+.Synonym {
+  color: #70757a;
 }

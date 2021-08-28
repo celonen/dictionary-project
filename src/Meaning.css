@@ -7,11 +7,13 @@
 
 .Meaning .Definition {
   color: #70757a;
+  margin-bottom: 15px;
 }
 
 .Example {
   color: #70757a;
   font-style: italic;
+  margin-bottom: 15px;
 }
 
 .Synonym {
